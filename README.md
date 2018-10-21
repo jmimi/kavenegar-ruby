@@ -6,7 +6,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'kave_rest_api'
+gem 'kavenegar-ruby'
 ```
 
 And then execute:
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install kave_rest_api
+    $ gem install kavenegar-ruby
     
     
 ## How do I configure my app for Kave negar service ?
@@ -23,9 +23,9 @@ Or install it yourself as:
 ###### Using the generator
 
 Run the generator :
-    ```rails generate kave_rest_api install```
+    ```rails generate kavenegar-ruby install```
 
-This will create a initializer at **`config/initializer/kave_rest_api_initializer.rb`**.
+This will create a initializer at **`config/initializer/kavenegar-ruby_initializer.rb`**.
 You can set api key , default sender , strip emoji , debugmode or format
 
 ```ruby

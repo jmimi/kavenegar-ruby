@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'kave_rest_api/version'
+require 'kavenegar-ruby/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "kave_rest_api"
+  spec.name          = "kavenegar-ruby"
   spec.version       = KaveRestApi::VERSION
   spec.authors       = ["mohammad mahmoudi"]
   spec.email         = ["mm580486@gmail.com"]
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
     Ruby gem to send and receive SMS via kavenegar API(rest)
     kavenegar is great services for send and receive sms this service has a some feature like verification sms or voice service , etc
   }
-  spec.homepage      = "https://github.com/mm580486/kave_rest_api/"
+  spec.homepage      = "https://github.com/kavenegar/kavenegar-ruby/"
   spec.license       = "MIT"
   spec.required_ruby_version = '>= 1.9.3'
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

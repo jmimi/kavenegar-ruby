@@ -1,4 +1,4 @@
-require 'kave_rest_api'
+require 'kavenegar-ruby'
 require_relative 'config'
 
 

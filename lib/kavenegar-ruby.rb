@@ -31,7 +31,7 @@ module KaveRestApi
 end
 
 %w(version core helper request meaning respond).each do |identify|
-    require "kave_rest_api/#{identify}"
+    require "kavenegar-ruby/#{identify}"
 end
 
 

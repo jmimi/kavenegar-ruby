@@ -1,4 +1,4 @@
-require 'kave_rest_api'
+require 'kavenegar-ruby'
 require "spec_helper"
 
 describe KaveRestApi do

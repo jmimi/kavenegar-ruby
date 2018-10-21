@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in kave_rest_api.gemspec
+# Specify your gem's dependencies in kavenegar-ruby.gemspec
 gemspec

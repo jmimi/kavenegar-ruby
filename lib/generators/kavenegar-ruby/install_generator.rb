@@ -5,7 +5,7 @@ module KaveRestApi
       desc "Creates KaveRestApi initializer for your application"
 
       def copy_initializer
-        template "kave_rest_api_initializer.rb", "config/initializers/kave_rest_api.rb"
+        template "kavenegar-ruby_initializer.rb", "config/initializers/kavenegar-ruby.rb"
         
          puts <<~EOF
         \e[36mInstall complete 👻 \e[0m
