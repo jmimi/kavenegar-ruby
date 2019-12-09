@@ -1,13 +1,10 @@
 module KaveRestApi
   class Lookup < KaveRestApi::RequestBase
     include Validatable
-    attr_accessor :receptor, :message,:unixdate,:type,:date,:localid,:sender
+    attr_accessor :receptor, :type, :template, :token, :token2, :token3
     attr_reader   :response,:message_size
     validates_presence_of :token
-    validates_presence_of :receptor
-    validates_length_of :message, :within => 1..140
-    validates_format_of :sender, :with => /^\d*$/, :if => Proc.new { !sender.nil? }
-    validates_format_of :unixdate, :with => /^\d*$/, :if => Proc.new { !unixdate.nil? }
+    validates_presence_of :receptor    
 
     def initialize(args = {})
       super
